@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>.ip Интернет маркетинг, инновационная реклама.</title>
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<header class="page-header">
+    <div class="container">
+      <div class="navigation navbar-expand-lg">
+        <a class="logo" href="index.html">
+          <img src="img/logo.png" alt="Логотип">
+        </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navigation__nav">
+            <li class="navigation__item dropdown">
+              <a class="navigation__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Сегменты рынка
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="navigation__item dropdown">
+              <a class="navigation__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Цифровой маркетинг
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Отраслевой обозреватель</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Интернет-маркетинг и PR</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+	</header>
+  <div class="bg-image" id="canvas-header">
+    <canvas class="main-header__canvas" id="canvas"></canvas>
+    <div class="container" style="position: relative; z-index: 9;">
+      <section class="main-block">
+        <h1 class="main-block__title">Ideas Promotion</h1>
+        <p class="main-block__tagline">Открытая отраслевая цифровая платформа и агрегатор инновационных знаний для Вашего бизнеса</p>
+        <a class="main-block__btn btn" href="#">Добавить сайт</a>
+        <a class="main-block__btn btn" href="#">Личный кабинет</a>
+        <a class="main-block__btn btn" href="#">API платформа</a>
+      </section>
+    </div>
+    <div class="bg-substrate">
+      <form class="container search" action="">
+        <div class="search row">
+          <div class="col-lg-5 col-ident">
+            <input class="form-control" type="text" placeholder="Поиск по доменам и названию">
+          </div>
+          <div class="col-lg-5 col-ident">
+            <label class="form-select">
+              <select class="form-control">
+                <option value="4">Наименование рынка</option>
+                <option value="7">Культурно-бытовые услуги, СМИ и образование</option>
+                <option value="6">Финансы и инвестиции</option>
+                <option value="5">Топливно-энергетический комплекс</option>
+                <option value="8">Промышленное производство</option>
+                <option value="9">Консалтинг</option>
+                <option value="10">Наукоемкие технологии</option>
+                <option value="11">Ювелирная продукция и промышленность</option>
+                <option value="12">Информационные технологии</option>
+                <option value="13">Недвижимость</option>
+                <option value="14">Инжиниринг</option>
+                <option value="15">Авторынки</option>
+                <option value="16">Транспотрные и торговые сети</option>
+              </select>
+            </label>
+          </div>
+          <div class="col-lg-2 col-ident">
+            <button class="btn search__btn">Поиск</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <main role="main">
+    <div class="group-ident">
+      <div class="container">
+        <div class="row tes">
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#script"></use>
+                </svg>
+              </div>
+              Культура, искуство, СМИ и образование
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#coin"></use>
+                </svg>
+              </div>
+              Финансы и инвестиции
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#battery"></use>
+                </svg>
+              </div>
+              Топливно- энергетический комплекс
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40" viewBox="0 0 24 24">
+                  <use xlink:href="img/symbols.svg#building-1"></use>
+                </svg>
+              </div>
+              Промышленное производство
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#chart"></use>
+                </svg>
+              </div>
+              Консалтинг
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#rocket"></use>
+                </svg>
+              </div>
+              Наукоемкие технологии
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#diamond"></use>
+                </svg>
+              </div>
+              Ювелирная продукция и промышленность
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#computer"></use>
+                </svg>
+              </div>
+              Информационные технологии
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40" viewBox="0 0 24 24">
+                  <use xlink:href="img/symbols.svg#building"></use>
+                </svg>
+              </div>
+              Недвижимость
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#tools"></use>
+                </svg>
+              </div>
+              Инжиниринг
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#car"></use>
+                </svg>
+              </div>
+              Авторынки, водный и ЖД транспорт
+            </a>
+          </div>
+          <div class="col-lg-3">
+            <a class="division" href="#">
+              <div class="division__icon">
+                <svg class="icon" width="40" height="40">
+                  <use xlink:href="img/symbols.svg#shopping-cart"></use>
+                </svg>
+              </div>
+              Торговые сети и коммерческие услуги
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="group-ident group-ident--pattern">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <section class="add-company">
+              <h2 class="title title--width">Добавь свою компанию</h2>
+              <ul class="add-company__list">
+                <li class="add-company__item">Актульные бизнес-рейтинги по инновациям B2B и B2C решениям для бизнеса</li>
+                <li class="add-company__item">Возможность заявить о своей деятельности и бизнесе</li>
+                <li class="add-company__item">Освещение конкурентных преимуществ в отраслевом обозревателе</li>
+                <li class="add-company__item">Освещение позиций Вашего бизнеса в отрасли</li>
+                <li class="add-company__item">Освещение преимуществ Вашего продукта</li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-lg-4">
+            <div class="advantages">
+              <ul class="advantages__list">
+                <li class="advantages__item">
+                  <svg class="advantages__icon" width="40" height="40">
+                    <use xlink:href="img/symbols.svg#time"></use>
+                  </svg>
+                  <span>Маркетинг 24/7</span>
+                </li>
+                <li class="advantages__item">
+                  <svg class="advantages__icon" width="40" height="40">
+                    <use xlink:href="img/symbols.svg#target"></use>
+                  </svg>
+                  <span>Только целевая аудитория</span>
+                </li>
+                <li class="advantages__item">
+                  <svg class="advantages__icon" width="40" height="40">
+                    <use xlink:href="img/symbols.svg#database"></use>
+                  </svg>
+                  <span>Процессинг больших данных</span>
+                </li>
+              </ul>
+              <a class="advantages__btn btn btn--main" href="#">Добавить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="group-ident">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <section class="">
+              <h2 class="title">Новости платформы</h2>
+              <article class="news">
+                <h3 class="news__title">Первая новость для примера, специально длинный текст что бы проверить отображение</h3>
+                <p class="news__hashteg">
+                  <a href="#">Заголовок,</a>
+                  <a href="#">SEO,</a>
+                  <a href="#">Продвижение,</a>
+                  <a href="#">Текст,</a>
+                  <a href="#">Кключевые слова,</a>
+                  <a href="#">Новости</a>
+                </p>
+                <p class="news__text">Тут находится начало новости для предварительного обзора. Несколько строк достаточно что бы заинтересовать читателя. Если новость достаточно интересная то посетитель сайта сможет нажать кнопку “подробнее” которая находится под этим текстом.</p>
+                <a class="btn news__btn" href="#">Подробнее</a>
+              </article>
+              <article class="news">
+                <h3 class="news__title">Первая новость для примера, специально длинный текст что бы проверить отображение</h3>
+                <p class="news__hashteg">
+                  <a href="#">Заголовок,</a>
+                  <a href="#">SEO,</a>
+                  <a href="#">Продвижение,</a>
+                  <a href="#">Текст,</a>
+                  <a href="#">Кключевые слова,</a>
+                  <a href="#">Новости</a>
+                </p>
+                <p class="news__text">Тут находится начало новости для предварительного обзора. Несколько строк достаточно что бы заинтересовать читателя. Если новость достаточно интересная то посетитель сайта сможет нажать кнопку “подробнее” которая находится под этим текстом.</p>
+                <a class="btn news__btn" href="#">Подробнее</a>
+              </article>
+              <button class="btn btn--main btn--more">Смотреть все новости</button>
+            </section>
+          </div>
+          <div class="col-lg-6">
+            <section class="">
+              <h2 class="title">Отрасливые новости</h2>
+              <article class="news">
+                <h3 class="news__title">Первая новость для примера, специально длинный текст что бы проверить отображение</h3>
+                <p class="news__hashteg">
+                  <a href="#">Заголовок,</a>
+                  <a href="#">SEO,</a>
+                  <a href="#">Продвижение,</a>
+                  <a href="#">Текст,</a>
+                  <a href="#">Кключевые слова,</a>
+                  <a href="#">Новости</a>
+                </p>
+                <p class="news__text">Тут находится начало новости для предварительного обзора. Несколько строк достаточно что бы заинтересовать читателя. Если новость достаточно интересная то посетитель сайта сможет нажать кнопку “подробнее” которая находится под этим текстом.</p>
+                <a class="btn news__btn" href="#">Подробнее</a>
+              </article>
+              <article class="news">
+                <h3 class="news__title">Первая новость для примера, специально длинный текст что бы проверить отображение</h3>
+                <p class="news__hashteg">
+                  <a href="#">Заголовок,</a>
+                  <a href="#">SEO,</a>
+                  <a href="#">Продвижение,</a>
+                  <a href="#">Текст,</a>
+                  <a href="#">Кключевые слова,</a>
+                  <a href="#">Новости</a>
+                </p>
+                <p class="news__text">Тут находится начало новости для предварительного обзора. Несколько строк достаточно что бы заинтересовать читателя. Если новость достаточно интересная то посетитель сайта сможет нажать кнопку “подробнее” которая находится под этим текстом.</p>
+                <a class="btn news__btn" href="#">Подробнее</a>
+              </article>
+              <button class="btn btn--main  btn--more">Смотреть все новости</button>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="group-ident group-ident--pd">
+      <div class="container">
+        <h2 class="title">Видео</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6QnQr63T-Pw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-6">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/6QnQr63T-Pw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="group-ident group-ident--img">
+      <section class="container">
+        <h2 class="title-center">Добавь свою компанию и стань партнером</h2>
+        <form class="form-company" action="">
+          <div class="form-group">
+            <label class="form-select form-select--transparent">
+              <select class="form-control">
+                <option>Выбор обращения</option>
+                <option>Выбор обращения</option>
+                <option>Выбор обращения</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-group">
+            <input class="form-control form-control--bg" type="text" placeholder="ФИО">
+          </div>
+          <div class="form-group">
+            <input class="form-control form-control--bg" type="text" placeholder="Организация">
+          </div>
+          <div class="form-group">
+            <input class="form-control form-control--bg" type="text" placeholder="Телефон">
+          </div>
+          <div class="form-group">
+            <input class="form-control form-control--bg" type="text" placeholder="E-mail">
+          </div>
+          <button class="form-company__btn btn">Отправить</button>
+        </form>
+      </section>
+    </div>
+    <div class="group-ident group-ident--color">
+      <div class="container">
+        <p class="text-content"> Идейные соображения высшего порядка, а также рамки и место обучения кадров требуют определения и уточнения систем массового участия. Товарищи! новая модель организационной деятельности влечет за собой процесс внедрения и модернизации новых предложений. Повседневная практика показывает, что постоянное информационно- пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Не следует, однако забывать, что консультация с широким активом требуют от нас анализа модели развития. Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. </p>
+      </div>
+    </div>
+  </main>
+	<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div style="max-width: 270px;">
+            <a class="logo-footer" href="index.html">
+              <img src="img/logo.png" alt="Логотип">
+            </a>
+            <p class="footer-text">Мы решаем самые современные задачи по развитию коммуникативных технологий и отражению конкурентных преимуществ организации на рынке за счет персонального продвижения Ваших рекламных продуктов.</p>
+            <a class="link-doc" href="#">Медиа-кит</a>
+            <a class="link-doc" href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-title">Подробная информация</h3>
+          <ul class="footer-nav">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">База данных профучастников рынков</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Новости</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Контакты</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Участникам рынка</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Заказать исследование</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Заказать продвижение</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Партнерские программы</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Наша деятельность</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Об авторском праве</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h3 class="footer-title">Контакты</h3>
+          <ul class="footer-nav">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="tel: +7 (495) 107-06-75">+7 (495) 107-06-75</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="mailto:info@ideasp.ru">info@ideasp.ru</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Skype: ideasp</a>
+            </li>
+          </ul>
+          <h3 class="footer-title">Электронные кошельки</h3>
+          <ul class="footer-nav">
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">BTC</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">ETH</a>
+            </li>
+            <li class="footer-nav__item">
+              <a class="footer-nav__link" href="#">Webmoney</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h3 class="footer-title">Соц.сети</h3>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg width="20" height="20">
+                  <use xlink:href="img/symbols.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg width="20" height="20">
+                  <use xlink:href="img/symbols.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <svg width="20" height="20">
+                  <use xlink:href="img/symbols.svg#vk"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	</footer>
+	<script src="js/script.js"></script>
+</body>
+</html>
+

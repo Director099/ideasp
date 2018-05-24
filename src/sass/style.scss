@@ -1,0 +1,47 @@
+// Style plagin
+
+@import "node_modules/normalize.css/normalize";
+@import "node_modules/bootstrap/scss/bootstrap";
+// @import "node_modules/owl.carousel/dist/assets/owl.carousel.css";
+// @import "node_modules/owl.carousel/dist/assets/owl.theme.default.css";
+// @import "node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+
+// My style
+
+@import "variables";
+// @import "mixins/grid-mixins";
+
+
+@import "mixins/functions";
+
+
+@import "global/fonts";
+@import "global/global";
+
+@import "block/scrollUp";
+@import "block/page-header";
+@import "block/page-footer";;
+@import "block/bg-image";
+@import "block/bg-substrate";
+@import "block/division";
+@import "block/group-ident";
+@import "block/title";
+@import "block/form-control";
+@import "block/btn";
+@import "block/main-block";
+@import "block/add-company";
+@import "block/advantages";
+@import "block/news";
+@import "block/footer-title";
+@import "block/footer-nav";
+@import "block/social";
+@import "block/form-company";
+@import "block/form-select";
+@import "block/title-center";
+@import "block/text-content";
+@import "block/logo-footer";
+@import "block/link-doc";
+@import "block/footer-text";
+@import "block/navigation";
+@import "block/search";
+@import "block/fullpage";

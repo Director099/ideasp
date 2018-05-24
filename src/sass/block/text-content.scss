@@ -1,0 +1,11 @@
+.text-content {
+  max-width: 950px;
+  margin: 0 auto;
+  text-indent: 1.5em;
+  font-size: 14px;
+  line-height: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

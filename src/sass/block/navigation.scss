@@ -1,0 +1,20 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navigation__nav {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: -20px;
+  list-style: none;
+}
+
+.navigation__link {
+  display: block;
+  color: $black;
+  padding: 10px 20px;
+}

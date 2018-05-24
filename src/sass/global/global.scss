@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 $fz $family-nova;
+  color: $text-color;
+  background: #f0f0f0 url("../img/bg-pattern.png") repeat;
+}
+
+a {
+  cursor: pointer;
+  transition: $time;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+button {
+  transition: $time;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}

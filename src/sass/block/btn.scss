@@ -1,0 +1,17 @@
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+
+  &--main {
+    background: $color-1;
+    color: $white;
+  }
+
+  &--more {
+    display: block;
+    margin: 0 auto;
+    max-width: 220px;
+    width: 100%;
+  }
+}

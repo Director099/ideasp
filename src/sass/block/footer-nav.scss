@@ -1,0 +1,18 @@
+.footer-nav {
+  @include ul-none();
+  margin-bottom: 40px;
+}
+
+.footer-nav__item {
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer-nav__link {
+  display: block;
+  color: $black;
+  font-size: 12px;
+}

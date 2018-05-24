@@ -1,0 +1,33 @@
+.division {
+  display: flex;
+  align-items: center;
+  border: 3px solid $white;
+  min-height: 66px;
+  padding-right: 2px;
+  font-weight: 300;
+  color: $white;
+  margin-bottom: 30px;
+  font-size: 16px;
+  background: $color-2;
+  box-shadow: 0 0 5px 1px rgba($black, 0.5);
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.division__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 15px;
+  width: 66px;
+  padding: 13px;
+  background: #5facd4;
+}
+
+.division__icon .icon {
+  fill: $white;
+}

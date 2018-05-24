@@ -1,0 +1,10 @@
+@mixin padding-ident() {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@mixin ul-none() {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

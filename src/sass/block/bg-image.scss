@@ -1,0 +1,17 @@
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  background: url("../img/pic-1.jpg") no-repeat 0 10%;
+  background-size: cover;
+  min-height: 460px;
+  height: auto !important;
+  color: $white;
+}
+
+.main-header__canvas {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}

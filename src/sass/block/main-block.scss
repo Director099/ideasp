@@ -1,0 +1,18 @@
+.main-block {
+  max-width: 615px;
+  margin: 0 auto 65px;
+}
+
+.main-block__title {
+  font-size: $fz--h1;
+  font-weight: 700;
+}
+
+.main-block__tagline {
+  font-size: 24px;
+}
+
+.main-block__btn {
+  background: #5facd4;
+  color: $white;
+}

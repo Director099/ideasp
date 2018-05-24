@@ -1,0 +1,20 @@
+.title-center {
+  position: relative;
+  padding: 0 70px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: $fz--h4;
+  text-transform: uppercase;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 1px;
+    background: $white;
+  }
+}

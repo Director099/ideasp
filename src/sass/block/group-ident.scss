@@ -1,0 +1,27 @@
+.group-ident {
+  @include padding-ident();
+
+  &--color {
+    background: $white;
+  }
+
+  &--img {
+    min-height: 425px;
+    background: #2a2a2a url("../img/portfolio.jpg") no-repeat bottom;
+    color: $white;
+  }
+
+  &--pattern {
+    background: url("../img/bg-pattern-1.png") no-repeat center;
+    background-size: cover;
+  }
+
+  &--pd {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+
+.group-ident .tes .col-lg-3:nth-last-child(-n+4) .division {
+  margin-bottom: 0;
+}

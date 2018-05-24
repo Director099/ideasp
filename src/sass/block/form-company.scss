@@ -1,0 +1,18 @@
+.form-company {
+  max-width: 370px;
+  text-align: center;
+
+  &--bg {
+    background: transparent;
+    color: $white;
+    border: 2px solid $white;
+  }
+}
+
+.form-company__btn {
+  max-width: 220px;
+  width: 100%;
+  margin: 0 auto;
+  background: $color-1;
+  color: $white;
+}

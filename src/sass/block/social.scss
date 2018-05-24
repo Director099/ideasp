@@ -1,0 +1,6 @@
+.social {
+  @include ul-none();
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
