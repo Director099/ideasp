@@ -8,63 +8,61 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<header class="page-header">
-    <div class="container">
-      <div class="navigation navbar-expand-lg">
-        <a class="logo" href="index.html">
-          <img src="img/logo.png" alt="Логотип">
-        </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navigation__nav">
-            <li class="navigation__item dropdown">
-              <a class="navigation__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Сегменты рынка
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="navigation__item dropdown">
-              <a class="navigation__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Цифровой маркетинг
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Отраслевой обозреватель</a>
-            </li>
-            <li class="navigation__item">
-              <a class="navigation__link" href="#">Интернет-маркетинг и PR</a>
-            </li>
-          </ul>
-        </nav>
+	<div class="fullpage">
+    <header class="page-header">
+      <div class="container">
+        <div class="navigation navbar-expand-xl">
+          <a class="logo" href="index.html">
+            <img class="img-fluid" src="img/logo.png" alt="Логотип">
+          </a>
+           <button class="toggle-menu navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navigation__nav">
+              <li class="navigation__item dropdown  dropdown-menu-right">
+                <a class="navigation__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Сегменты рынка
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="navigation__item dropdown  dropdown-menu-right">
+                <a class="navigation__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Цифровой маркетинг
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Отраслевой обозреватель</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Интернет-маркетинг и PR</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </div>
-	</header>
-  <div class="bg-image" id="canvas-header">
-    <canvas class="main-header__canvas" id="canvas"></canvas>
-    <div class="container" style="position: relative; z-index: 9;">
-      <section class="main-block">
-        <h1 class="main-block__title">Ideas Promotion</h1>
-        <p class="main-block__tagline">Открытая отраслевая цифровая платформа и агрегатор инновационных знаний для Вашего бизнеса</p>
-        <a class="main-block__btn btn" href="#">Добавить сайт</a>
-        <a class="main-block__btn btn" href="#">Личный кабинет</a>
-        <a class="main-block__btn btn" href="#">API платформа</a>
-      </section>
-    </div>
-    <div class="bg-substrate">
-      <form class="container search" action="">
+    </header>
+    <div class="bg-image" id="canvas-header">
+      <!-- <canvas class="main-header__canvas" id="canvas"></canvas> -->
+      <div class="container" style="position: relative; z-index: 9;">
+        <section class="main-block">
+          <h1 class="main-block__title">Ideas Promotion</h1>
+          <p class="main-block__tagline">Открытая отраслевая цифровая платформа и агрегатор инновационных знаний для Вашего бизнеса</p>
+          <a class="btn btn--main" href="#">Добавить сайт</a>
+          <a class="btn btn--main" href="#">Личный кабинет</a>
+          <a class="btn btn--main" href="#">API платформа</a>
+        </section>
         <div class="search row">
           <div class="col-lg-5 col-ident">
             <input class="form-control" type="text" placeholder="Поиск по доменам и названию">
@@ -92,6 +90,6 @@
             <button class="btn search__btn">Поиск</button>
           </div>
         </div>
-      </form>
+      </div>
     </div>
   </div>

@@ -1,3 +1,5 @@
 .page-footer {
   @include padding-ident();
+  background: $color-2 url("../img/bg-pattern-3.png");
+  color: $white;
 }

@@ -1,16 +1,45 @@
 .news {
-  padding: 15px;
-  border: 1px solid #eee;
   margin-bottom: 30px;
   box-shadow: $shadow;
-  background: $white;
+  color: $white;
+  overflow: hidden;
+  background: $black url("../img/news.jpg");
+
+  &:hover .news__glass {
+    transform: translateY(0px);
+  }
 }
 
 .news__title {
   font-family: $family-nova;
-  font-size: $fz--h3;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $color-1;
+}
+
+.news__glass {
+  position: relative;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 300;
+
+  background: rgba(#404d53, 0.75);
+  transition: $time;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    left: 30px;
+    border: 50px solid transparent;
+    border-bottom: 20px solid rgba(#404d53, 0.75);
+  }
+
+  @include media-breakpoint-up(md) {
+    transform: translateY(180px);
+  }
 }
 
 .news__hashteg a {
@@ -26,9 +55,16 @@
   margin-bottom: 25px;
 }
 
+.news__data {
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
 .news__btn {
-  max-width: 220px;
-  width: 100%;
-  background: $color-1;
+  display: block;
+  max-width: 120px;
+  margin: 0 auto;
   color: $white;
+  background: #33404a;
+  border: 1px solid $white;
 }

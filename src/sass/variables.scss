@@ -20,8 +20,9 @@ $color-danger:                hsl(2, 64%, 58%);
 $color-warning:               hsl(35, 84%, 62%);
 
 
-$color-1:                     #77c8f2;
-$color-2:                     #0a354b;
+$color-1:                     #08abff;
+$color-2:                     #073e62;
+$color-3:                     #4e5d72;
 
 $text-color:                  $gray-darkest;
 
@@ -53,3 +54,10 @@ $shadow:                      0 0 5px 1px rgba(138,138,138,.2);
 // Разное
 
 $time:                        0.3s;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);

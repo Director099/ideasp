@@ -19,6 +19,12 @@
   color: $black;
 }
 
-.form-select--transparent select {
-  color: $white;
+.form-select--height {
+  max-width: 390px;
+  margin: 0px auto 18px;
+  border: 2px solid $color-3;
+
+  select {
+    height: 33px !important;
+  }
 }

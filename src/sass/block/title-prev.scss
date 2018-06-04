@@ -1,0 +1,19 @@
+.title-prev {
+  position:  relative;
+  margin: 0;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 300;
+  background: #4e5d72;
+  color: $white;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 3px;
+    background: $color-1;
+  }
+}

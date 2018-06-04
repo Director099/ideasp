@@ -6,14 +6,27 @@
 .search__btn {
   display: block;
   width: 100%;
-  background: #08abff;
+  background: $color-1;
   color: $white;
+  font-size: 14px;
+  padding: 6px 18px;
+  max-width: 200px;
+  margin: 0 auto;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 100%;
+  }
 }
 
 .col-ident {
   padding: 0 5px;
+  margin-bottom: 15px;
 
   .form-control {
-    height: 32px !important;
+    height: 35px !important;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 0;
   }
 }

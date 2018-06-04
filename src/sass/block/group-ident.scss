@@ -6,9 +6,9 @@
   }
 
   &--img {
-    min-height: 425px;
-    background: #2a2a2a url("../img/portfolio.jpg") no-repeat bottom;
+    background: url("../img/portfolio.jpg") no-repeat bottom;
     color: $white;
+    background-size: cover;
   }
 
   &--pattern {
@@ -16,9 +16,23 @@
     background-size: cover;
   }
 
+  &--bg-line {
+    background: url("../img/bg-line.png") no-repeat -50px -400px;
+  }
+
   &--pd {
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 60px;
+  }
+
+  &--ident-big {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  &--ident-midle {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 

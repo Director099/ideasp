@@ -1,11 +1,11 @@
 .bg-image {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   text-align: center;
   background: url("../img/pic-1.jpg") no-repeat 0 10%;
   background-size: cover;
-  min-height: 460px;
+  min-height: calc(100vh - 68px);
   height: auto !important;
   color: $white;
 }

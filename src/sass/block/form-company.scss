@@ -1,6 +1,5 @@
 .form-company {
-  max-width: 370px;
-  text-align: center;
+  justify-content: space-between;
 
   &--bg {
     background: transparent;
@@ -15,4 +14,45 @@
   margin: 0 auto;
   background: $color-1;
   color: $white;
+}
+
+.form-company__input {
+  display: none;
+
+  &#tab-0:checked ~ label[for="tab-0"],
+  &#tab-1:checked ~ label[for="tab-1"],
+  &#tab-2:checked ~ label[for="tab-2"] {
+    background: $color-1;
+  }
+}
+
+.form-company__ident {
+  margin-bottom: 20px;
+}
+
+.form-company__choice {
+  display: block;
+  text-align: center;
+  padding: 9px 10px;
+  border: 1px solid $white;
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  background: $color-3;
+  text-transform: uppercase;
+  transition: $time;
+  cursor: pointer;
+
+  @include media-breakpoint-up(lg) {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.form-company__control {
+  padding: 4px 10px;
+  min-height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid $color-3;
 }

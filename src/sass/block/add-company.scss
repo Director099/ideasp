@@ -4,12 +4,17 @@
 
 .add-company__list {
   @include ul-none();
+  margin-bottom: 30px;
+
+  @include media-breakpoint-up(xl) {
+    margin-bottom: 0;
+  }
 }
 
 .add-company__item {
   position: relative;
   padding-left: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   font-size: 16px;
 
   &::after {
@@ -17,23 +22,19 @@
     position: absolute;
     left: 0;
     top: 50%;
-    background: $white;
+    background: #4e5d72;
     width: 16px;
-    height: 16px;
-    border-radius: 50%;
+    height: 13px;
     transform: translateY(-50%);
-    border: 1px solid #c9c8c9;
-    box-shadow: 0 0 5px 1px rgba(#c9c8c9, 0.9);
   }
 
   &::before {
     content: "";
     position: absolute;
-    left: 5px;
+    left: 0px;
     top: 50%;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
+    width: 3px;
+    height: 13px;
     transform: translateY(-50%);
     background: $color-1;
     z-index: 2;
