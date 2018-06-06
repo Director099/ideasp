@@ -6,7 +6,13 @@
 }
 
 .social__link {
+
   svg {
     fill: $white;
+    transition: $time;
+  }
+
+  &:hover svg {
+    fill: $color-1;
   }
 }

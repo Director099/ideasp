@@ -8,10 +8,6 @@
   margin: 0 -7.5px;
   transition: $time;
   background: transparent;
-
-  &:hover {
-    background: ;
-  }
 }
 
 .advantages__column {
@@ -24,18 +20,56 @@
 }
 
 .advantages__item {
+  position: relative;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   margin-bottom: 30px;
   min-height: 175px;
   text-align: center;
   padding: 30px 10px;
   background: $white;
+  z-index: 2;
+  transition: $time;
 
   span {
     font-size: 16px;
     color: #9fb2bc;
+    transition: $time;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    transition: $time;
+  }
+
+  &:hover {
+    background: #406582;
+
+    .advantages__icon {
+      fill: $white;
+    }
+    span {
+      color: $white;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      opacity: 1;
+      background: url("../img/bg-adv.jpg") no-repeat;
+      background-size: cover;
+      z-index: -1;
+    }
   }
 }
 
@@ -43,6 +77,7 @@
   display: block;
   margin: 0 auto 15px;
   fill: #9fb2bc;
+  transition: $time;
 }
 
 .advantages__btn {

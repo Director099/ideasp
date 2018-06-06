@@ -15,4 +15,8 @@
   display: block;
   color: $white;
   font-size: 12px;
+
+  &:hover {
+    color: $color-1;
+  }
 }

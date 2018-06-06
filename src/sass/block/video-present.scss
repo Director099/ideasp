@@ -1,0 +1,12 @@
+.video-present {
+  margin-bottom: 15px;
+
+  &:hover {
+    .title-prev {
+
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+}

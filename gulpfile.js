@@ -91,6 +91,8 @@ gulp.task('js', function() {
     'node_modules/svg4everybody/dist/svg4everybody.min.js',
     'node_modules/svgxuse/svgxuse.min.js',
     // 'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
+    dirs.source + '/js/stats.js',
+    dirs.source + '/js/bg.js',
     dirs.source + '/js/custom.js'
     ])
   .pipe(plumber())

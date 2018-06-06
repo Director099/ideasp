@@ -23,6 +23,10 @@
   display: block;
   color: $white;
   padding: 10px 20px;
+
+  &:hover {
+    color: $color-1;
+  }
 }
 
 .navbar-collapse {

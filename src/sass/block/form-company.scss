@@ -21,7 +21,8 @@
 
   &#tab-0:checked ~ label[for="tab-0"],
   &#tab-1:checked ~ label[for="tab-1"],
-  &#tab-2:checked ~ label[for="tab-2"] {
+  &#tab-2:checked ~ label[for="tab-2"],
+  &#tab-3:checked ~ label[for="tab-3"] {
     background: $color-1;
   }
 }
@@ -47,6 +48,10 @@
     &:last-child {
       margin-bottom: 0;
     }
+  }
+
+  &:hover {
+    background: lighten($color-3, 15%);
   }
 }
 

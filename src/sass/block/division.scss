@@ -1,4 +1,5 @@
 .division {
+  position: relative;
   display: flex;
   align-items: center;
   min-height: 66px;
@@ -8,9 +9,27 @@
   margin-bottom: 30px;
   font-size: 16px;
   background: #4e5d72;
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transition: $time;
+  }
 
   &:hover {
     color: $white;
+
+    &::after {
+      background: #5facd4;
+      width: 100%;
+      z-index: -1;
+    }
   }
 }
 
@@ -24,6 +43,7 @@
   width: 66px;
   padding: 13px;
   background: #5facd4;
+  z-index: 1;
 }
 
 .division__icon .icon {
